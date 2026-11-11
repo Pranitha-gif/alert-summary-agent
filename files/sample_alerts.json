@@ -1,0 +1,170 @@
+[
+  {
+    "alert_id": "A001",
+    "source": "airflow",
+    "service": "orders-pipeline",
+    "severity": "high",
+    "message": "Task load_orders_0 failed after 1 retries",
+    "timestamp": "2026-11-10T02:10:00"
+  },
+  {
+    "alert_id": "A002",
+    "source": "airflow",
+    "service": "orders-pipeline",
+    "severity": "high",
+    "message": "Task load_orders_1 failed after 2 retries",
+    "timestamp": "2026-11-10T02:11:00"
+  },
+  {
+    "alert_id": "A003",
+    "source": "airflow",
+    "service": "orders-pipeline",
+    "severity": "high",
+    "message": "Task load_orders_2 failed after 3 retries",
+    "timestamp": "2026-11-10T02:12:00"
+  },
+  {
+    "alert_id": "A004",
+    "source": "airflow",
+    "service": "orders-pipeline",
+    "severity": "high",
+    "message": "Task load_orders_3 failed after 4 retries",
+    "timestamp": "2026-11-10T02:13:00"
+  },
+  {
+    "alert_id": "A005",
+    "source": "airflow",
+    "service": "orders-pipeline",
+    "severity": "high",
+    "message": "Task load_orders_4 failed after 5 retries",
+    "timestamp": "2026-11-10T02:14:00"
+  },
+  {
+    "alert_id": "A006",
+    "source": "airflow",
+    "service": "orders-pipeline",
+    "severity": "high",
+    "message": "Task load_orders_5 failed after 6 retries",
+    "timestamp": "2026-11-10T02:15:00"
+  },
+  {
+    "alert_id": "A007",
+    "source": "airflow",
+    "service": "orders-pipeline",
+    "severity": "high",
+    "message": "Task load_orders_6 failed after 7 retries",
+    "timestamp": "2026-11-10T02:16:00"
+  },
+  {
+    "alert_id": "A008",
+    "source": "airflow",
+    "service": "orders-pipeline",
+    "severity": "high",
+    "message": "Task load_orders_7 failed after 8 retries",
+    "timestamp": "2026-11-10T02:17:00"
+  },
+  {
+    "alert_id": "A009",
+    "source": "airflow",
+    "service": "orders-pipeline",
+    "severity": "critical",
+    "message": "DAG orders_daily SLA missed by 45 minutes",
+    "timestamp": "2026-11-10T03:05:00"
+  },
+  {
+    "alert_id": "A010",
+    "source": "db-monitor",
+    "service": "warehouse-db",
+    "severity": "medium",
+    "message": "Connection pool at 80% capacity",
+    "timestamp": "2026-11-10T04:00:00"
+  },
+  {
+    "alert_id": "A011",
+    "source": "db-monitor",
+    "service": "warehouse-db",
+    "severity": "medium",
+    "message": "Connection pool at 85% capacity",
+    "timestamp": "2026-11-10T04:10:00"
+  },
+  {
+    "alert_id": "A012",
+    "source": "db-monitor",
+    "service": "warehouse-db",
+    "severity": "medium",
+    "message": "Connection pool at 90% capacity",
+    "timestamp": "2026-11-10T04:20:00"
+  },
+  {
+    "alert_id": "A013",
+    "source": "app-logs",
+    "service": "web-api",
+    "severity": "low",
+    "message": "Slow response 200ms on /health",
+    "timestamp": "2026-11-10T05:00:00"
+  },
+  {
+    "alert_id": "A014",
+    "source": "app-logs",
+    "service": "web-api",
+    "severity": "low",
+    "message": "Slow response 230ms on /health",
+    "timestamp": "2026-11-10T05:05:00"
+  },
+  {
+    "alert_id": "A015",
+    "source": "app-logs",
+    "service": "web-api",
+    "severity": "low",
+    "message": "Slow response 260ms on /health",
+    "timestamp": "2026-11-10T05:10:00"
+  },
+  {
+    "alert_id": "A016",
+    "source": "app-logs",
+    "service": "web-api",
+    "severity": "low",
+    "message": "Slow response 290ms on /health",
+    "timestamp": "2026-11-10T05:15:00"
+  },
+  {
+    "alert_id": "A017",
+    "source": "app-logs",
+    "service": "web-api",
+    "severity": "low",
+    "message": "Slow response 320ms on /health",
+    "timestamp": "2026-11-10T05:20:00"
+  },
+  {
+    "alert_id": "A018",
+    "source": "app-logs",
+    "service": "web-api",
+    "severity": "low",
+    "message": "Slow response 350ms on /health",
+    "timestamp": "2026-11-10T05:25:00"
+  },
+  {
+    "alert_id": "A019",
+    "source": "db-monitor",
+    "service": "warehouse-db",
+    "severity": "critical",
+    "message": "Disk usage above 95% on node 3",
+    "timestamp": "2026-11-10T06:00:00"
+  },
+  {
+    "alert_id": "A020",
+    "source": "scheduler",
+    "service": "reports-svc",
+    "severity": "info",
+    "message": "Nightly report job completed",
+    "timestamp": "2026-11-10T06:30:00"
+  },
+  {
+    "alert_id": "A999",
+    "source": "x",
+    "service": "",
+    "severity": "high",
+    "message": "bad row",
+    "timestamp": "2026-11-10T07:00:00"
+  }
+]
